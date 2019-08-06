@@ -7,18 +7,16 @@
 //
 
 import Foundation
-class Scholar {
-    //properties go here
-    var age = "15"
-    var name = "Alexis"
-    var language = "Swift"
-    
-    init(scholarName : String, scholarAge : String){
-        name = scholarName;
-        age = scholarAge;
+class waterBottles {
+    var brand = "Fiji"
+    var price = "1.99"
+    var type = "fancy"
+    var size = "500ml"
+    init(waterBrand : String, waterPrice : String){
+        brand = waterBrand
+        price = waterPrice
     }
-    func writeCode() {
-        print("\(name) is \(age) and is a coder")
+    func newBrand(){
+        print (" WOW! \(brand) watar is so \(type) and only \(price) for \(size)!")
     }
-    
 }
