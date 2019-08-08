@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jy1-Ns-fcP">
+                                <rect key="frame" x="70" y="136" width="274" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jy1-Ns-fcP" secondAttribute="height" multiplier="235:43" id="PrW-7F-3DQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="43"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It's Big Time Rush's World" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bne-yn-I79">
+                                <rect key="frame" x="52" y="425.5" width="310" height="25"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="we're all just living in it" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14s-1Y-nQR">
+                                <rect key="frame" x="68" y="478.5" width="278" height="25"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="BTR World  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Se-69-TZ8">
+                                <rect key="frame" x="-15" y="211" width="409" height="145.66666666666663"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="43"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80200751159999994" green="0.98249271370000002" blue="0.8597365535" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Se-69-TZ8" secondAttribute="trailing" constant="8" id="0BR-Tn-RIY"/>
+                            <constraint firstItem="Bne-yn-I79" firstAttribute="top" secondItem="0Se-69-TZ8" secondAttribute="bottom" constant="63.5" id="1TN-eS-8nu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="14s-1Y-nQR" secondAttribute="trailing" constant="68" id="EJy-9x-3zz"/>
+                            <constraint firstItem="14s-1Y-nQR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="KFB-EN-kVS"/>
+                            <constraint firstItem="0Se-69-TZ8" firstAttribute="top" secondItem="jy1-Ns-fcP" secondAttribute="bottom" constant="30" id="Nt9-QU-lHu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bne-yn-I79" secondAttribute="trailing" constant="52" id="PPu-by-Ox9"/>
+                            <constraint firstItem="jy1-Ns-fcP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="92" id="cLF-Rk-w0T"/>
+                            <constraint firstItem="0Se-69-TZ8" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-42" id="eyy-Na-UTh"/>
+                            <constraint firstItem="14s-1Y-nQR" firstAttribute="top" secondItem="Bne-yn-I79" secondAttribute="bottom" constant="28" id="s1a-so-lxd"/>
+                            <constraint firstItem="Bne-yn-I79" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="52" id="sn4-Fk-bfb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jy1-Ns-fcP" secondAttribute="trailing" constant="70" id="ubv-D2-c1G"/>
+                            <constraint firstItem="jy1-Ns-fcP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="uef-eb-l5T"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="fYw-tO-Afg" appends="YES" id="nlS-N2-kd6"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="fYw-tO-Afg"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+</document>
